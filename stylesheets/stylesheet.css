@@ -4,15 +4,18 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+  font-family: 'Oswald', Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
 
 a {
-  color: #1e6bb8;
-  text-decoration: none; }
+  color: #606c71;
+  text-decoration: none; 
+  font-weight: 600;
+  }
   a:hover {
+    color: #606c71;
     text-decoration: underline; }
 
 .btn {
@@ -105,13 +108,16 @@ a {
 .main-content :first-child {
   margin-top: 0; }
 .main-content img {
-  max-width: 100%; }
+  max-width: 100%; 
+  margin-bottom: 2em;
+}
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-weight: normal;
   text-transform: uppercase;
-  color: rgb(111, 181, 76); }
+  color: rgb(111, 181, 76);
+  line-height: 1.25em; }
 .main-content h1 {
   font-size: 3em; }
 .main-content p {
@@ -222,6 +228,7 @@ a {
     font-size: 1rem; } }
 
 .site-footer {
+  font-family: 'Open Sans', sans-serif;
   padding-top: 1rem;
   margin-top: 1rem;
   color: gray;
