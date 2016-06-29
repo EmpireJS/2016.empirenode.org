@@ -55,9 +55,7 @@ a {
 
 .page-header {
   color: #fff;
-  text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  text-align: center; }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -109,16 +107,19 @@ a {
 .main-content img {
   max-width: 100%; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  text-transform: uppercase;
+  color: rgb(111, 181, 76); }
+.main-content h1 {
+  font-size: 3em; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
   padding: 2px 4px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 0.9rem;
+  font-size: 3em;
   color: #383e41;
   background-color: #f3f6fa;
   border-radius: 0.3rem; }
@@ -221,8 +222,9 @@ a {
     font-size: 1rem; } }
 
 .site-footer {
-  padding-top: 2rem;
-  margin-top: 2rem;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  color: gray;
   border-top: solid 1px #eff0f1; }
 
 .site-footer-owner {
